@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Appnovo</string>
+    <string name="txttela2">\"Os SUPER-HERÓIS são nossos protetores e amigos da vizinhança, mas como os mesmos afetam o meio ambiente? A seguir veremos o porque a sustentabilidade e os heróis estão conectados .\"</string>
+    <string name="txttela3">Qual time de herois escolher?</string>
+
+    <string name="txtaquaman">Aquaman</string>
+    <string name="txtbatman">Batman</string>
+    <string name="txtironman">Iron Man</string>
+    <string name="txtblackpanther">Black Panther</string>
+    <string name="btnvoltar5">Voltar</string>
+
+    <string name="txtbioiron">"Homem de Ferro é o empresário e bilionário Tony Stark, que usa armaduras de alta tecnologia no combate ao crime."</string>
+    <string name="txtsusiron">"A venda de armas nas Indústrias Stark causavam muito estragos, então ele anuncia o fim da produção de armamentos passando a investir em novas tecnologias e em energias renováveis."</string>
+
+    <string name="txtsusbp">"O príncipe T'Challa acredita na preservação do meio ambiente e ensina o seu povo a plantar e colher com responsabilidade e sem desperdício dos recursos naturais."</string>
+    <string name="txtbiobp">"T'Challa nasceu em Wakanda na África, conhecida por ser super evoluída e avançada, sendo um humano misticamente aprimorado através de um ritual mistico do país para ser o Pantera Negra."</string>
+
+    <string name="txtlogo">SUPER-HEROIS</string>
+
+    <string name="txtbioaqua">"Arthur Curry foi criado como um meio Atlante, meio Homem. Ele nasceu para ser um grande herói atlante que luta por Atlantis, a fim de trazer a paz entre a Atlântida e o mundo fora do mar."</string>
+    <string name="txtsusaqua"> "O Aquaman mostra como a natureza está descontente com o comportamento negligente dos humanos pela alta produção do lixo em que o destino final são os oceanos."</string>
+    <string name="btnvoltaraqua">Voltar</string>
+
+    <string name="txtbiobat">"Bruce Wayne após testemunhar o assassinato de seus pais ainda criança, o fez jurar vingança contra os criminosos, treinar todos os dias sozinho, e criar o super heroi morcego "Batman" para combater o crime de Gotham City."</string>
+    <string name="txtsusbat">"O Batman depende de uma abundância tecnológica como, o Batmóvel e equipamentos que deixam uma grande pegada ecológica prejudicial ao meio ambiente."</string>
+
+    <string name="btnvoltarbat">Voltar</string>
+    <string name="btnvoltarbp">Voltar</string>
+    <string name="txtvideoaqua">Assista o video da história do Aquaman</string>
+    <string name="txtvideobat">Assista o video da história do Batman</string>
+    <string name="txtvideobp">Assista o video da história do Pantera Negra</string>
+    <string name="txtvideoim">Assista o video da história do Homem de Ferro</string>
+    <string name="txtwelcome">SEJA BEM VINDO!</string>
+    <string name="txtsobre">Quem somos?</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivitybatman">
+
+    <TextView
+        android:id="@+id/txtbiobat"
+        android:layout_width="360dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="307dp"
+        android:text="@string/txtbiobat"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btnvoltarbat"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="627dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@color/material_dynamic_neutral_variant20"
+        android:onClick="btnvoltarbat"
+        android:text="@string/btnvoltarbat"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtsusbat"
+        android:layout_width="247dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="148dp"
+        android:text="@string/txtsusbat"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtvideobat"
+        android:layout_width="345dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="443dp"
+        android:minHeight="48dp"
+        android:onClick="txtvideobat"
+        android:text="@string/txtvideobat"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imgbat"
+        android:layout_width="402dp"
+        android:layout_height="217dp"
+        android:layout_marginBottom="514dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/batman"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imgempresa"
+        android:layout_width="89dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="287dp"
+        android:layout_marginTop="466dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="176dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/empresa"
+        tools:ignore="ContentDescription" />
+</androidx.constraintlayout.widget.ConstraintLayout>

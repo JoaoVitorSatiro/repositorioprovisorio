@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="295dp"
+        android:layout_height="275dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="360dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoherois"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints,VisualLintBounds" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="152dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="603dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="53dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:onClick="btn1"
+        android:text="Continuar"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="290dp"
+        android:text="@string/txtlogo"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="547dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="157dp"
+        android:text="@string/txtwelcome"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

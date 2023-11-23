@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivitybp">
+
+    <TextView
+        android:id="@+id/txtsusbp"
+        android:layout_width="229dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="118dp"
+        android:text="@string/txtsusbp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btnvoltarbp"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="609dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:onClick="btnvoltarbp"
+        android:text="@string/btnvoltarbp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txtbiobp"
+        android:layout_width="349dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="296dp"
+        android:text="@string/txtbiobp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imgpantera"
+        android:layout_width="397dp"
+        android:layout_height="230dp"
+        android:layout_marginBottom="503dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pantera"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtvideobp"
+        android:layout_width="377dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="433dp"
+        android:minHeight="48dp"
+        android:onClick="txtvideobp"
+        android:text="@string/txtvideobp"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imgplanta"
+        android:layout_width="87dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="293dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="172dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/solo"
+        tools:ignore="ContentDescription" />
+</androidx.constraintlayout.widget.ConstraintLayout>
